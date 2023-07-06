@@ -1,0 +1,121 @@
+.add_extra {
+  width: 40px;
+  height: 40px;
+}
+
+.input_add_extra {
+  background-color: none;
+  border-style: none;
+  background: none;
+  width: 35px;
+  text-align: center;
+}
+
+.input_add_extra[type="number"]::-webkit-outer-spin-button,
+.input_add_extra[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input_add_extra[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.input_add_extra:focus {
+  background-color: none;
+  border-style: none;
+  background: none;
+  outline: none;
+}
+
+.addorremove {
+  cursor: pointer;
+  background-color: none;
+  border: none;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  background: none;
+}
+
+.total_item_input {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  background: #ededed;
+  border-radius: 10px;
+  border-style: none;
+  width: 80px;
+  height: 36px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #000000;
+}
+
+.total_item_input:focus {
+  outline: none;
+}
+
+.extra_title_s2 {
+  width: 500px;
+  cursor: pointer;
+  margin: 1em;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 2px;
+
+  background: #324558;
+  padding: 0.5em;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.extra_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.2em;
+  background: #f5bd14;
+  border-radius: 10px;
+  width: 400px;
+}
+
+#extras_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+  #extra_title {
+    margin-top: 1em;
+  }
+
+  .extra_title_s2 {
+    width: 90vw;
+  }
+
+  .extra_box {
+    width: 90vw;
+  }
+}

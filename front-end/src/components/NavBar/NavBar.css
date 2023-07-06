@@ -1,0 +1,241 @@
+#navbarbox {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1em;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 4;
+}
+
+.containernavbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbaroption {
+  /* Texto1 16 px medium */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  margin: 1em;
+
+  color: #000000;
+}
+
+.ingresarbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 10px;
+
+  background: #324558;
+  border-radius: 20px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+
+.registerbtn {
+  /* Frame 198 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 10px;
+
+  background: #f7bb06;
+  border-radius: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-decoration: none;
+  width: 123px;
+  height: 24px;
+
+  /* Texto boton 16 px bold */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#menu_desplegable {
+  display: none;
+}
+
+.navBarSlide {
+  display: none;
+}
+
+.navBarSlideOff {
+  display: none;
+}
+
+#box_navbar_slide_animation {
+  position: absolute;
+}
+
+#box_navbar_slide_animation_off {
+  position: absolute;
+}
+
+#titulo_navbar {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  #navbarbox {
+    justify-content: space-between;
+  }
+
+  #titulo_navbar {
+    display: block;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #000000;
+  }
+
+  #logoImageNavBar {
+    height: 5vh;
+    margin-left: 2em;
+  }
+
+  #menu_desplegable {
+    display: inline;
+    margin-right: 2em;
+  }
+
+  .containernavbar {
+    display: none;
+  }
+
+  .navBarSlide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+  }
+
+  #box_navbar_slide_animation {
+    position: fixed;
+    background: #324558;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+  }
+
+  #top_bar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #options_navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+  }
+
+  #p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navBarSlideOff {
+    display: none;
+  }
+
+  #cruz_cerrar {
+    background: none;
+    border-style: none;
+    font-size: 20px;
+    color: white;
+  }
+
+  .logo_navbar_sidemenu {
+    width: 20vw;
+  }
+
+  .navbaroption_drop_menu {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    padding-top: 2em;
+    padding-top: 2em;
+    margin-left: 1em;
+
+    color: #ffffff;
+  }
+}

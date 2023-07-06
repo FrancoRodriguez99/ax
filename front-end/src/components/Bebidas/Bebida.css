@@ -1,0 +1,82 @@
+.bebida_logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 0.7em;
+  cursor: pointer;
+}
+
+.gaseosas_add {
+  display: flex;
+}
+
+.extra_box_gaseosas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2em;
+  background: #f5bd14;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.productoCompraBTN {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.gaseosas_hiadd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.boxes_logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.label_extra_gaseosas {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #000000;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bebidas_comprar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .extra_box_gaseosas {
+    width: 90vw;
+  }
+}

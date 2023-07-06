@@ -1,0 +1,20 @@
+.ordenes_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  border-top-style: solid;
+  border-color: #f7bb06;
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.metodo_pago {
+  width: 70px;
+  height: 70px;
+}

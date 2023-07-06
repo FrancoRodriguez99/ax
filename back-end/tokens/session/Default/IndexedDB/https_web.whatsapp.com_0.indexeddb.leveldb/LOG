@@ -1,0 +1,6 @@
+2023/05/06-17:43:10.223 eb0 Creating DB D:\mdqwalter\back-end\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2023/05/06-17:43:10.273 eb0 Reusing MANIFEST D:\mdqwalter\back-end\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/06-17:43:10.398 4290 Level-0 table #5: started
+2023/05/06-17:43:10.465 4290 Level-0 table #5: 13127 bytes OK
+2023/05/06-17:43:10.523 4290 Delete type=0 #3
+2023/05/06-17:43:10.523 15ac Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,194 @@
+#contacto-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+#contacto_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+
+  margin: 0;
+  margin-top: 1em;
+  padding: 0;
+}
+
+#contactogps_title {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+
+  /* Inside auto layout */
+}
+
+#ubicacion {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+}
+
+#contactanosdatabox {
+  display: flex;
+  background: #131313;
+  align-items: center;
+  padding: 1em;
+}
+
+#formulariodata {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-left: 3em;
+}
+
+.formulariocontactolabels {
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+}
+
+.inputoneliner {
+  width: 498px;
+  height: 46px;
+
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+
+.inputtextarea {
+  width: 498px;
+  height: 116px;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+#contactofondo {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+}
+
+#contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+#enviarcontacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 10px;
+  border-style: none;
+  margin: 1em;
+
+  width: 112px;
+  height: 44px;
+
+  background: #f7bb06;
+  border-radius: 20px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #000000;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.mapa_contacto_phone {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  #contactanosdatabox {
+    padding: 0;
+  }
+
+  #ubicacion_titulo {
+    margin-left: 1em;
+  }
+  #ubicacion {
+    margin-left: 1em;
+  }
+
+  #formulariodata {
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 1em;
+  }
+
+  .formulariocontactolabels {
+    margin: 0;
+    padding: 0;
+    margin-top: 1em;
+  }
+
+  .inputoneliner {
+    width: 327px;
+  }
+
+  .inputtextarea {
+    width: 326px;
+  }
+
+  .mapa_contacto {
+    display: none;
+  }
+  .mapa_contacto_phone {
+    display: inline;
+    justify-self: center;
+    align-self: center;
+  }
+
+  #contactofondo {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 788px;
+  }
+
+  #contactanosdatabox {
+    background: none;
+  }
+}

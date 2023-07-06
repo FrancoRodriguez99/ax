@@ -1,0 +1,26 @@
+#data_direccion_box {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 1em;
+}
+
+.editInputDireccion {
+  background: #dddddd;
+  width: 285px;
+  height: 32px;
+  text-align: center;
+}
+
+.data_addres_p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+  text-align: center;
+  color: #000000;
+}

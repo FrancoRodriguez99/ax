@@ -1,0 +1,387 @@
+#buyItem_container {
+  margin-top: 15vh;
+}
+
+#box_principal_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#goBackBTN {
+  background: #f7bb06;
+  border-radius: 100%;
+  color: white;
+  border-style: none;
+  width: 42px;
+  height: 42px;
+  font-size: larger;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+#box_data_product {
+  display: flex;
+  width: 60vw;
+}
+
+#photo_product {
+  width: 563px;
+  height: 544px;
+  margin: 1em;
+}
+
+#titulo_item_buy {
+  /* Titulo 2 home */
+
+  margin: 0.5em;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+
+  text-align: left;
+  letter-spacing: 2px;
+
+  color: #000000;
+}
+
+#instructions_item_buy {
+  margin: 0.5em;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #000000;
+}
+
+#total_of_item {
+  margin: 0.5em;
+  width: 427px;
+  height: 46px;
+  left: 0px;
+  top: 139px;
+
+  background: #f7bb06;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #000000;
+}
+
+#extra_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 45px;
+  /* identical to box height */
+
+  text-align: left;
+  letter-spacing: 2px;
+
+  color: #000000;
+}
+
+#precio_total_box {
+  display: flex;
+}
+
+#precio_total {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #000000;
+}
+
+#total_cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  background: #f2f2f2;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #000000;
+}
+
+.label_extra {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #000000;
+}
+
+.hidden {
+  display: none;
+}
+
+#seguir_comprando {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 60px;
+  gap: 10px;
+
+  width: 243px;
+  height: 44px;
+
+  /* Secundario */
+
+  background: #324558;
+  border-radius: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  border-style: none;
+  color: #ffffff;
+  margin: 1em;
+}
+
+#comprar_ahora {
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 60px;
+  gap: 10px;
+
+  text-decoration: none;
+  width: 243px;
+  height: 44px;
+
+  background: #f7bb06;
+  border-radius: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #324558;
+  border-style: none;
+  cursor: pointer;
+}
+
+#botones_compra {
+  display: flex;
+  justify-content: flex-end;
+  width: 70vw;
+}
+
+.empty_style {
+  background-color: none;
+  border-style: none;
+  background: none;
+  width: 20px;
+}
+
+.empty_style:focus {
+  background-color: none;
+  border-style: none;
+  background: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 480px) {
+  #buyItem_container {
+    margin-top: 10vh;
+  }
+
+  #goBackBTN {
+    display: none;
+  }
+
+  #photo_product {
+    width: 100vw;
+    margin: 0;
+    height: 236px;
+  }
+
+  #box_principal_items {
+    margin: 0;
+    align-items: center;
+  }
+
+  #box_data_product {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #titulo_item_buy {
+    /* Titulo 2 home */
+
+    margin: 0.5em;
+
+    text-align: center;
+  }
+
+  #compras_config {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #instructions_item_buy {
+    width: 95vw;
+  }
+
+  #total_of_item {
+    width: 90vw;
+  }
+
+  #precio_total_box {
+    width: 90vw;
+  }
+
+  #seguir_comprando {
+    padding: 10px 60px;
+    gap: 10px;
+
+    width: 243px;
+    height: 44px;
+
+    /* Secundario */
+
+    background: #324558;
+    border-radius: 20px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    border-style: none;
+    color: #ffffff;
+    margin: 1em;
+  }
+
+  #comprar_ahora {
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 60px;
+    gap: 10px;
+
+    text-decoration: none;
+    width: 243px;
+    height: 44px;
+
+    background: #f7bb06;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #324558;
+    border-style: none;
+    cursor: pointer;
+  }
+
+  #botones_compra {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 70vw;
+  }
+
+  .empty_style {
+    background-color: none;
+    border-style: none;
+    background: none;
+    width: 20px;
+  }
+
+  .empty_style:focus {
+    background-color: none;
+    border-style: none;
+    background: none;
+    outline: none;
+  }
+}
